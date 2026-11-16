@@ -30,3 +30,11 @@
     align-self: flex-end;
     flex-direction: row-reverse;
 }
+
+body{
+    background-image: url(fondo\ de\ kira.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
