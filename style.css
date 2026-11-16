@@ -14,4 +14,13 @@
 
 .display {
     display: flex;
+    align-items: start;
+}
+
+.izquierda{
+    align-self: flex-start;
+}
+
+.derecha{
+    align-self: flex-end;
 }
