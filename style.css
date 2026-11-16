@@ -17,7 +17,7 @@
 .DisplayFlex {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
     align-items: center;
     width: 100%;
 }
@@ -41,11 +41,16 @@ body{
     background-attachment: fixed;
 
     font-family: 'Cinzel', serif;
-    color: #E8D49A;
+    color: #B8FFDB;
 }
 
 h1, h2 {
-    color: #F5D77A;
+    color: #C9E8FF;
     text-shadow: 2px 2px 5px black;
     font-weight: 700;
+}
+
+.display img {
+    border: 3px solid #C9E8FF;
+    border-radius: 8px;
 }
