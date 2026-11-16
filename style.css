@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+
 .cartas {
     display: flex;
     justify-content: center;
@@ -37,4 +39,13 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    font-family: 'Cinzel', serif;
+    color: #E8D49A;
+}
+
+h1, h2 {
+    color: #F5D77A;
+    text-shadow: 2px 2px 5px black;
+    font-weight: 700;
 }
