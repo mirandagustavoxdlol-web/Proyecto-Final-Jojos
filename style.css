@@ -21,10 +21,12 @@
 }
 
 .izquierda{
+    display: flex;
     align-self: flex-start;
 }
 
 .derecha{
+    display: flex;
     align-self: flex-end;
     flex-direction: row-reverse;
 }
