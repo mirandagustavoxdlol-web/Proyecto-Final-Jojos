@@ -15,12 +15,16 @@
 .DisplayFlex {
     display: flex;
     align-items: center;
+    gap: 20px;
+    width: 70%;
+    margin-bottom: 30px;
 }
 
 .izquierda{
-    align-self: flex-start;
+    margin-right: auto;
 }
 
 .derecha{
-    align-self: flex-end;
+    margin-left: auto;
+    flex-direction: row-reverse;
 }
