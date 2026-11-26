@@ -72,8 +72,8 @@ p {
   
 }
 body img {
-    border: 3px solid #252033;
-    border-radius: 8px;
+    border: none;
+    border-radius: 0;
 }
 
 .site-header {
