@@ -205,3 +205,66 @@ body img {
     margin-top: auto;
     align-self: flex-start;
 }
+
+.izquierda,
+.derecha {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 25px auto;
+    padding: 15px;
+
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 2px solid #FFD700;
+    border-radius: 12px;
+}
+
+
+.derecha {
+    flex-direction: row-reverse;
+}
+
+
+.izquierda img,
+.derecha img {
+    width: 300px;
+    height: 350px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.izquierda h2,
+.derecha h2 {
+    flex: 1;
+    margin: 0;
+    padding: 15px;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .izquierda,
+    .derecha {
+        flex-direction: column;
+        width: 95%;
+        gap: 15px;
+        margin: 20px auto;
+    }
+
+    .izquierda img,
+    .derecha img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .izquierda h2,
+    .derecha h2 {
+        font-size: 18px;
+    }
+}
