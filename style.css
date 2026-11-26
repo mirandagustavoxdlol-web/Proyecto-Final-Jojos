@@ -92,7 +92,7 @@ body img {
     font-size: 23px;
     font-weight: bold;
     letter-spacing: 1px;
-    transition: 10s;
+    transition: 0.3s;
 }
 
 .navbar-brand:hover {
